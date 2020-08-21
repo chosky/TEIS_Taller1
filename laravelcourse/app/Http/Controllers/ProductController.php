@@ -7,7 +7,7 @@ class ProductController extends Controller {
         $data = []; // to be sent to the view
 
 	$listProducts = array();
-	$listProducts[121] = array("name"="TV Samsung", "price"=>"1000");
+	$listProducts[121] = array("name"=>"TV Samsung", "price"=>"1000");
 
 	$listOfSizes = array("XS", "S", "M", "L", "XL");
 
